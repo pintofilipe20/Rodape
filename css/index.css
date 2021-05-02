@@ -1,0 +1,122 @@
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: arial;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+}
+body{
+    background: #fff;
+}
+
+/*==============RODAPÉ===============*/
+.rodape{
+    width: 100%;
+    float: left;
+    padding: 1%;
+    background:rgba(0,0,0,0.8);
+}
+.card-divisao{
+    width: 100%;
+    float: left;
+}
+.card{
+    width: 100%;
+    float: left;
+    margin-bottom: 3%;
+}
+.card h3{
+    color: #fff;
+    line-height: 2;
+    text-align: center;
+    color: #da6709;
+}
+.card ul{
+    width: 100%;
+    float: left;
+}
+.card ul li{
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    margin:2px;
+    margin-left: 30%;
+}
+.card ul li a{
+    color: #fff;
+}
+.card li:hover{
+     background: #da6709;
+    
+}
+.card p{
+    width: 100%;
+    float: left;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 2%;
+    color: #fff;
+    opacity: .7;
+}
+.card-baixo{
+    width: 100%;
+    float: left;
+    display: inline-flex;
+    padding-bottom: 20px;
+    padding-top:10px;
+    border-top:1px dashed #fff;
+}
+.card-baixo h2{
+    width: 70%;
+    float: left;
+    font-size: 1.6em;
+    color: #da6709;
+}
+.redes-socias{
+    font-size: 1.6em;
+    cursor: pointer;
+}
+.redes-socias li{
+    width: 30px;
+    float: left;
+}
+.redes-socias .fa-facebook{
+   color: #718cf1;
+}
+.redes-socias .fa-whatsapp{
+    color: #24da86;
+}
+.redes-socias .fa-youtube{
+    color: #ce0b14;
+}
+@media screen and (min-width:800px){
+    .card{
+        width: 25%;
+        float: left;
+    }
+    .card h3{
+        text-align: left;
+        margin-left: 31%;
+    }
+    .card ul li{
+        text-align: left;
+    }
+    .card-baixo h2{
+    width: 90%;
+    }
+}
